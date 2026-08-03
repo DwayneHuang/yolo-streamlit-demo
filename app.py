@@ -347,13 +347,15 @@ if input_image is not None:
             elif task == "Image Classification":
                 probs = result.probs
 
-                # Classification results do not need result.plot().
-                # Display the original image and a clean Top-5 table.
+                # Keep the original UI behavior: show the plotted
+                # classification result in the Prediction column.
+                plotted = result.plot()
+
                 with col2:
                     st.image(
-                        input_image,
+                        plotted[:, :, ::-1],
                         use_container_width=True,
-                        caption="Classification Input",
+                        caption="Classification Result",
                     )
 
                 st.divider()
