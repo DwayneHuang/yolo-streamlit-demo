@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# YOLO model weights
+*.pt
+*.pth
+*.onnx
+
+# Uploaded images
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Temporary files
+tmp/
+temp/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
