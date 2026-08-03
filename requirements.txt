@@ -1,7 +1,13 @@
 streamlit==1.60.0
-ultralytics
 torch
 torchvision
 pillow
 pandas
 opencv-python-headless
+--no-deps ultralytics
+pyyaml
+requests
+scipy
+tqdm
+matplotlib
+seaborn
