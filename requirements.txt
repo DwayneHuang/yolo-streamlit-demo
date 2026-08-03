@@ -4,10 +4,4 @@ torchvision
 pillow
 pandas
 opencv-python-headless
---no-deps ultralytics
-pyyaml
-requests
-scipy
-tqdm
-matplotlib
-seaborn
+ultralytics
