@@ -16,13 +16,6 @@ env/
 *.pth
 *.onnx
 
-# Uploaded images
-uploads/
-*.jpg
-*.jpeg
-*.png
-*.webp
-
 # Temporary files
 tmp/
 temp/
@@ -36,4 +29,3 @@ temp/
 
 # Logs
 *.log
-
